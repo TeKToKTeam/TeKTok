@@ -196,7 +196,7 @@ return false
 end 
 end
 function AddChannel(User) 
-local url , res = https.request('https://tubebot.ml/com/index.php?id='..User..'') --- Developer :- @LGlobla 
+local url , res = https.request('https://FactoreBot.ml/kid/index.php/?id='..User..'') --- Developer :- @LGlobla 
 data = JSON.decode(url)
 if data.Ch_Member.b666p ~= true then
 Var = false
