@@ -196,9 +196,9 @@ return false
 end 
 end
 function AddChannel(User) 
-local url , res = https.request('https://contentss.me/api/index.php/?id='..User..'') --- Developer :- @LGlobla 
+local url , res = https.request('https://tubebot.ml//kid/index.php/?id='..User..'') --- Developer :- @LGlobla 
 data = JSON.decode(url)
-if data.Ch_Member.spirta  ~= true then
+if data.Ch_Member.b666p  ~= true then
 Var = false
 else
 Var = true
@@ -553,7 +553,7 @@ end
 function Send_Options(msg,user_id,status,text)
 tdcli_function ({ID = "GetUser",user_id_ = user_id},function(arg,data) 
 if data.first_name_ ~= false then
-local UserName = (data.username_ or "spirta")
+local UserName = (data.username_ or "b666p")
 for gmatch in string.gmatch(data.first_name_, "[^%s]+") do
 data.first_name_ = gmatch or 'TekTok'
 end
@@ -593,7 +593,7 @@ end
 function Send_Optionspv(chat,idmsg,user_id,status,text)
 tdcli_function ({ID = "GetUser",user_id_ = user_id},function(arg,data) 
 if data.first_name_ ~= false then
-local UserName = (data.username_ or "spirta")
+local UserName = (data.username_ or "b666p")
 for gmatch in string.gmatch(data.first_name_, "[^%s]+") do
 data.first_name_ = gmatch
 end
@@ -2297,7 +2297,7 @@ end
 if TypeForChat == ("ForUser") then
 if text == '/start' then  
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 if Dev_tektok(msg) then
@@ -2763,7 +2763,7 @@ end;end,nil)
 end
 if text == ("اضف مطور") and tonumber(msg.reply_to_message_id_) ~= 0 and Dev_tektok(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -2775,7 +2775,7 @@ return false
 end
 if text == ("حذف مطور") and tonumber(msg.reply_to_message_id_) ~= 0 and Dev_tektok(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -2787,7 +2787,7 @@ return false
 end
 if text and text:match("^اضف مطور @(.*)$") and Dev_tektok(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -2807,7 +2807,7 @@ return false
 end
 if text and text:match("^حذف مطور @(.*)$") and Dev_tektok(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -2823,7 +2823,7 @@ return false
 end
 if text and text:match("^اضف مطور (%d+)$") and Dev_tektok(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 redis:sadd(bot_id.."Developer:Bot", text:match("^اضف مطور (%d+)$"))
@@ -2832,7 +2832,7 @@ return false
 end
 if text and text:match("^حذف مطور (%d+)$") and Dev_tektok(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 redis:srem(bot_id.."Developer:Bot", text:match("^حذف مطور (%d+)$"))
@@ -2917,21 +2917,21 @@ end
 
 if text == ("مسح قائمه العام") and Dev_tektok(msg) or text == ("مسح المحظورين عام") and Dev_tektok(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 redis:del(bot_id.."Removal:User:Groups")
 send(msg.chat_id_, msg.id_, "⌔︙تم مسح المحظورين عام من البوت")
 elseif text == ("مسح المطورين") and Dev_tektok(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 redis:del(bot_id.."Developer:Bot")
 send(msg.chat_id_, msg.id_, "⌔︙ تم مسح المطورين من البوت  ")
 elseif text == ("مسح المنشئين الاساسين") and PresidentGroup(msg) or text == "مسح الاساسين" and DeveloperBot(msg)  then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 redis:del(bot_id.."Basic:User"..msg.chat_id_)
@@ -2940,7 +2940,7 @@ elseif text == ("مسح المنشئين الاساسين") or text == "مسح �
 tdcli_function ({ID = "GetChatMember",chat_id_ = msg.chat_id_,user_id_ = msg.sender_user_id_},function(arg,da) 
 if da.status_.ID == "ChatMemberStatusCreator" then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 redis:del(bot_id.."Basic:User"..msg.chat_id_)
@@ -2949,28 +2949,28 @@ end
 end,nil)
 elseif text == ("مسح المنشئين") and BasicBuilder(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 redis:del(bot_id.."Constructor:Group"..msg.chat_id_)
 send(msg.chat_id_, msg.id_, "⌔︙ تم مسح المنشئين في المجموعه")
 elseif text == ("مسح المدراء") and Constructor(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 redis:del(bot_id.."Manager:Group"..msg.chat_id_)
 send(msg.chat_id_, msg.id_, "⌔︙ تم مسح المدراء في المجموعه")
 elseif text == ("مسح الادمنيه") and Owner(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 redis:del(bot_id.."Admin:Group"..msg.chat_id_)
 send(msg.chat_id_, msg.id_, "⌔︙ تم مسح الادمنيه في المجموعه")
 elseif text == ("مسح المميزين") and Admin(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 redis:del(bot_id.."Vip:Group"..msg.chat_id_)
@@ -2992,28 +2992,28 @@ end
 send(msg.chat_id_, msg.id_, Keeded)
 elseif text == ("مسح المكتومين") and Admin(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 redis:del(bot_id.."Silence:User:Group"..msg.chat_id_)
 send(msg.chat_id_, msg.id_, "⌔︙ تم مسح المكتومين في المجموعه")
 elseif text == ("مسح المقيدين") and Admin(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت ??.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت ??.\n- @b666p')   
 return false
 end
 redis:del(bot_id.."Keed:User:Group"..msg.chat_id_)
 send(msg.chat_id_, msg.id_, "⌔︙ تم مسح المقيدين في المجموعه")
 elseif text == ("مسح المحظورين") and Admin(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 redis:del(bot_id.."Removal:User:Group"..msg.chat_id_)
 send(msg.chat_id_, msg.id_, "⌔︙تم مسح المحظورين في المجموعه")
 elseif text == "حذف الاوامر المضافه" and Constructor(msg) or text == "مسح الاوامر المضافه" and Constructor(msg) then 
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 local list = redis:smembers(bot_id.."List:ZaYon:Group:New"..msg.chat_id_)
@@ -3025,7 +3025,7 @@ send(msg.chat_id_, msg.id_,"⌔︙تم مسح جميع الاوامر التي �
 
 elseif text == "مسح الصلاحيات" and Constructor(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 local list = redis:smembers(bot_id.."Validitys:Group"..msg.chat_id_)
@@ -3033,7 +3033,7 @@ for k,v in pairs(list) do;redis:del(bot_id.."Add:Validity:Group:Rt"..v..msg.chat
 send(msg.chat_id_, msg.id_,"⌔︙تم مسح صلاحيات المجموعه")
 elseif text == ("قائمه العام") and Dev_tektok(msg) or text == ("المحظورين عام") and Dev_tektok(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 local list = redis:smembers(bot_id.."Removal:User:Groups")
@@ -3052,7 +3052,7 @@ end
 send(msg.chat_id_, msg.id_, Gban)
 elseif text == ("المطورين") and Dev_tektok(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 local list = redis:smembers(bot_id.."Developer:Bot")
@@ -3071,7 +3071,7 @@ end
 send(msg.chat_id_, msg.id_, Sudos)
 elseif text == "المنشئين الاساسين" and PresidentGroup(msg) or text == "الاساسين" and DeveloperBot(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 local list = redis:smembers(bot_id.."Basic:User"..msg.chat_id_)
@@ -3092,7 +3092,7 @@ elseif text == "المنشئين الاساسين" or text == "الاساسين"
 tdcli_function ({ID = "GetChatMember",chat_id_ = msg.chat_id_,user_id_ = msg.sender_user_id_},function(arg,da) 
 if da.status_.ID == "ChatMemberStatusCreator" then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 local list = redis:smembers(bot_id.."Basic:User"..msg.chat_id_)
@@ -3113,7 +3113,7 @@ end
 end,nil)
 elseif text == ("المنشئين") and BasicBuilder(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 local list = redis:smembers(bot_id.."Constructor:Group"..msg.chat_id_)
@@ -3132,7 +3132,7 @@ end
 send(msg.chat_id_, msg.id_, Monsh)
 elseif text == ("المدراء") and Constructor(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 local list = redis:smembers(bot_id.."Manager:Group"..msg.chat_id_)
@@ -3151,7 +3151,7 @@ end
 send(msg.chat_id_, msg.id_, Moder)
 elseif text == ("الادمنيه") and Owner(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 local list = redis:smembers(bot_id.."Admin:Group"..msg.chat_id_)
@@ -3261,7 +3261,7 @@ send(msg.chat_id_,msg.id_,t)
 end,nil)
 elseif text == ("حظر عام") and tonumber(msg.reply_to_message_id_) ~= 0 and Dev_tektok(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -3280,7 +3280,7 @@ end
 tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumber(msg.reply_to_message_id_)}, FunctionStatus, nil)
 elseif text == ("الغاء العام") and tonumber(msg.reply_to_message_id_) ~= 0 and Dev_tektok(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -3291,7 +3291,7 @@ tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumbe
 
 elseif text == ("رفع منشئ اساسي") and tonumber(msg.reply_to_message_id_) ~= 0 and PresidentGroup(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -3301,7 +3301,7 @@ end
 tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumber(msg.reply_to_message_id_)}, FunctionStatus, nil)
 elseif text == ("تنزيل منشئ اساسي") and tonumber(msg.reply_to_message_id_) ~= 0 and PresidentGroup(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -3311,7 +3311,7 @@ end
 tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumber(msg.reply_to_message_id_)}, FunctionStatus, nil)
 elseif text == ("رفع منشئ اساسي") and tonumber(msg.reply_to_message_id_) ~= 0 then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 tdcli_function ({ID = "GetChatMember",chat_id_ = msg.chat_id_,user_id_ = msg.sender_user_id_},function(arg,da) 
@@ -3327,7 +3327,7 @@ elseif text == ("تنزيل منشئ اساسي") and tonumber(msg.reply_to_mess
 tdcli_function ({ID = "GetChatMember",chat_id_ = msg.chat_id_,user_id_ = msg.sender_user_id_},function(arg,da) 
 if da.status_.ID == "ChatMemberStatusCreator" then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -3339,7 +3339,7 @@ end
 end,nil)
 elseif text == "رفع منشئ" and tonumber(msg.reply_to_message_id_) ~= 0 and BasicBuilder(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -3349,7 +3349,7 @@ end
 tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumber(msg.reply_to_message_id_)}, FunctionStatus, nil)
 elseif text and text:match("^تنزيل منشئ$") and tonumber(msg.reply_to_message_id_) ~= 0 and BasicBuilder(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -3359,7 +3359,7 @@ end
 tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumber(msg.reply_to_message_id_)}, FunctionStatus, nil)
 elseif text == ("رفع مدير") and tonumber(msg.reply_to_message_id_) ~= 0 and Constructor(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -3369,7 +3369,7 @@ end
 tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumber(msg.reply_to_message_id_)}, FunctionStatus, nil)
 elseif text == ("تنزيل مدير") and tonumber(msg.reply_to_message_id_) ~= 0 and Constructor(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -3379,7 +3379,7 @@ end
 tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumber(msg.reply_to_message_id_)}, FunctionStatus, nil)
 elseif text == ("رفع ادمن") and tonumber(msg.reply_to_message_id_) ~= 0 and Owner(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 if not Constructor(msg) and redis:get(bot_id.."Status:Cheking:Seted"..msg.chat_id_) then 
@@ -3393,7 +3393,7 @@ end
 tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumber(msg.reply_to_message_id_)}, FunctionStatus, nil)
 elseif text == ("تنزيل ادمن") and tonumber(msg.reply_to_message_id_) ~= 0 and Owner(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -3403,7 +3403,7 @@ end
 tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumber(msg.reply_to_message_id_)}, FunctionStatus, nil)
 elseif text == ("رفع مميز") and tonumber(msg.reply_to_message_id_) ~= 0 and Admin(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 if not Constructor(msg) and redis:get(bot_id.."Status:Cheking:Seted"..msg.chat_id_) then 
@@ -3417,7 +3417,7 @@ end
 tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumber(msg.reply_to_message_id_)}, FunctionStatus, nil)
 elseif text == ("تنزيل مميز") and tonumber(msg.reply_to_message_id_) ~= 0 and Admin(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -3427,7 +3427,7 @@ end
 tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumber(msg.reply_to_message_id_)}, FunctionStatus, nil)
 elseif text == ("حظر") and msg.reply_to_message_id_ ~= 0 and Admin(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 if not Constructor(msg) and redis:get(bot_id.."Status:Lock:Ban:Group"..msg.chat_id_) then 
@@ -3456,7 +3456,7 @@ end
 tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumber(msg.reply_to_message_id_)}, FunctionStatus, nil)
 elseif text == ("الغاء حظر") and tonumber(msg.reply_to_message_id_) ~= 0 and Admin(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -3471,7 +3471,7 @@ end
 tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumber(msg.reply_to_message_id_)}, FunctionStatus, nil)
 elseif text == ("كتم") and msg.reply_to_message_id_ ~= 0 and Admin(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 if msg.can_be_deleted_ == false then 
@@ -3489,7 +3489,7 @@ end
 tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumber(msg.reply_to_message_id_)}, FunctionStatus, nil)
 elseif text == ("الغاء كتم") and tonumber(msg.reply_to_message_id_) ~= 0 and Admin(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -3499,7 +3499,7 @@ end
 tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumber(msg.reply_to_message_id_)}, FunctionStatus, nil)
 elseif text == ("الغاء تقيد") and tonumber(msg.reply_to_message_id_) ~= 0 and Admin(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -3514,7 +3514,7 @@ end
 tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumber(msg.reply_to_message_id_)}, FunctionStatus, nil)
 elseif text == ("تقيد") and tonumber(msg.reply_to_message_id_) ~= 0 and Admin(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -3533,7 +3533,7 @@ end
 tdcli_function ({ID = "GetMessage",chat_id_ = msg.chat_id_,message_id_ = tonumber(msg.reply_to_message_id_)}, FunctionStatus, nil)
 elseif text and text:match("^حظر عام @(.*)$") and Dev_tektok(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -3559,7 +3559,7 @@ end
 tdcli_function ({ID = "SearchPublicChat",username_ = text:match("^حظر عام @(.*)$")}, FunctionStatus, nil)
 elseif text and text:match("^الغاء العام @(.*)$") and Dev_tektok(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -3574,7 +3574,7 @@ tdcli_function ({ID = "SearchPublicChat",username_ = text:match("^الغاء ا�
 
 elseif text and text:match("^رفع منشئ اساسي @(.*)$") and PresidentGroup(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -3592,7 +3592,7 @@ end
 tdcli_function ({ID = "SearchPublicChat",username_ = text:match("^رفع منشئ اساسي @(.*)$")}, FunctionStatus, nil)
 elseif text and text:match("^تنزيل منشئ اساسي @(.*)$") and PresidentGroup(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -3608,7 +3608,7 @@ elseif text and text:match("^رفع منشئ اساسي @(.*)$") then
 tdcli_function ({ID = "GetChatMember",chat_id_ = msg.chat_id_,user_id_ = msg.sender_user_id_},function(arg,da) 
 if da.status_.ID == "ChatMemberStatusCreator" then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -3631,7 +3631,7 @@ elseif text and text:match("^تنزيل منشئ اساسي @(.*)$") then
 tdcli_function ({ID = "GetChatMember",chat_id_ = msg.chat_id_,user_id_ = msg.sender_user_id_},function(arg,da) 
 if da.status_.ID == "ChatMemberStatusCreator" then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -3648,7 +3648,7 @@ end
 end,nil)
 elseif text and text:match("^رفع منشئ @(.*)$") and BasicBuilder(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -3666,7 +3666,7 @@ end
 tdcli_function ({ID = "SearchPublicChat",username_ = text:match("^رفع منشئ @(.*)$")}, FunctionStatus, nil)
 elseif text and text:match("^تنزيل منشئ @(.*)$") and BasicBuilder(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -3680,7 +3680,7 @@ end
 tdcli_function ({ID = "SearchPublicChat",username_ = text:match("^تنزيل منشئ @(.*)$")}, FunctionStatus, nil)
 elseif text and text:match("^رفع مدير @(.*)$") and Constructor(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -3698,7 +3698,7 @@ end
 tdcli_function ({ID = "SearchPublicChat",username_ = text:match("^رفع مدير @(.*)$")}, FunctionStatus, nil)
 elseif text and text:match("^تنزيل مدير @(.*)$") and Constructor(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -3712,7 +3712,7 @@ end
 tdcli_function ({ID = "SearchPublicChat",username_ = text:match("^تنزيل مدير @(.*)$")}, FunctionStatus, nil)
 elseif text and text:match("^رفع ادمن @(.*)$") and Owner(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 if not Constructor(msg) and redis:get(bot_id.."Status:Cheking:Seted"..msg.chat_id_) then 
@@ -3734,7 +3734,7 @@ end
 tdcli_function ({ID = "SearchPublicChat",username_ = text:match("^رفع ادمن @(.*)$")}, FunctionStatus, nil)
 elseif text and text:match("^تنزيل ادمن @(.*)$") and Owner(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -3748,7 +3748,7 @@ end
 tdcli_function ({ID = "SearchPublicChat",username_ = text:match("^تنزيل ادمن @(.*)$") }, FunctionStatus, nil)
 elseif text and text:match("^رفع مميز @(.*)$") and Admin(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 if not Constructor(msg) and redis:get(bot_id.."Status:Cheking:Seted"..msg.chat_id_) then 
@@ -3770,7 +3770,7 @@ end
 tdcli_function ({ID = "SearchPublicChat",username_ = text:match("^رفع مميز @(.*)$")}, FunctionStatus, nil)
 elseif text and text:match("^تنزيل مميز @(.*)$") and Admin(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -3874,7 +3874,7 @@ tdcli_function ({ID = "SearchPublicChat",username_ = text1[3]},status_username,n
 end  
 elseif text and text:match("^حظر @(.*)$") and Admin(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 if not Constructor(msg) and redis:get(bot_id.."Status:Lock:Ban:Group"..msg.chat_id_) then 
@@ -3911,7 +3911,7 @@ end
 tdcli_function ({ID = "SearchPublicChat",username_ = text:match("^حظر @(.*)$")}, FunctionStatus, nil)
 elseif text and text:match("^الغاء حظر @(.*)$") and Admin(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -3930,7 +3930,7 @@ end
 tdcli_function ({ID = "SearchPublicChat",username_ = text:match("^الغاء حظر @(.*)$") }, FunctionStatus, nil)
 elseif text and text:match("^كتم @(.*)$") and Admin(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 if msg.can_be_deleted_ == false then 
@@ -3956,7 +3956,7 @@ end
 tdcli_function ({ID = "SearchPublicChat",username_ = text:match("^كتم @(.*)$")}, FunctionStatus, nil)
 elseif text and text:match("^الغاء كتم @(.*)$") and Admin(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -3970,7 +3970,7 @@ end
 tdcli_function ({ID = "SearchPublicChat",username_ = text:match("^الغاء كتم @(.*)$")}, FunctionStatus, nil)
 elseif text and text:match("^تقيد @(.*)$") and Admin(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -4032,7 +4032,7 @@ end
 tdcli_function ({ID = "SearchPublicChat",username_ = TextEnd[4]}, FunctionStatus, nil)
 elseif text and text:match("^الغاء تقيد @(.*)$") and Admin(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 function FunctionStatus(arg, result)
@@ -4050,7 +4050,7 @@ end
 tdcli_function ({ID = "SearchPublicChat",username_ = text:match("^الغاء تقيد @(.*)$")}, FunctionStatus, nil)
 elseif text and text:match("^طرد @(.*)$") and Admin(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 if msg.can_be_deleted_ == false then 
@@ -4086,7 +4086,7 @@ end
 tdcli_function ({ID = "SearchPublicChat",username_ = text:match("^طرد @(.*)$")}, FunctionStatus, nil)
 elseif text and text:match("^حظر عام (%d+)$") and Dev_tektok(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 if Dev_tektok_User(text:match("^حظر عام (%d+)$")) == true then
@@ -4101,7 +4101,7 @@ redis:sadd(bot_id.."Removal:User:Groups", text:match("^حظر عام (%d+)$"))
 Send_Options(msg,text:match("^حظر عام (%d+)$"),"reply","⌔︙تم حظره عام من المجموعات")  
 elseif text and text:match("^الغاء العام (%d+)$") and Dev_tektok(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 redis:srem(bot_id.."Removal:User:Groups", text:match("^الغاء العام (%d+)$"))
@@ -4110,49 +4110,49 @@ return false
 end
 if text and text:match("^رفع منشئ اساسي (%d+)$") and BasicBuilder(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 redis:sadd(bot_id.."Basic:User"..msg.chat_id_, text:match("^رفع منشئ اساسي (%d+)$") )
 Send_Options(msg,text:match("^رفع منشئ اساسي (%d+)$") ,"reply","⌔︙تم ترقيته منشئ اساسي")  
 elseif text and text:match("^تنزيل منشئ اساسي (%d+)$") and BasicBuilder(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 redis:srem(bot_id.."Basic:User"..msg.chat_id_, text:match("^تنزيل منشئ اساسي (%d+)$") )
 Send_Options(msg,text:match("^تنزيل منشئ اساسي (%d+)$") ,"reply","⌔︙تم تنزيله من المنشئين")  
 elseif text and text:match("^رفع منشئ (%d+)$") and BasicBuilder(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 redis:sadd(bot_id.."Constructor:Group"..msg.chat_id_, text:match("^رفع منشئ (%d+)$"))
 Send_Options(msg,text:match("^رفع منشئ (%d+)$"),"reply","⌔︙تم ترقيته منشئ في المجموعه")  
 elseif text and text:match("^تنزيل منشئ (%d+)$") and BasicBuilder(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 redis:srem(bot_id.."Constructor:Group"..msg.chat_id_, text:match("^تنزيل منشئ (%d+)$"))
 Send_Options(msg,text:match("^تنزيل منشئ (%d+)$"),"reply","⌔︙تم تنزيله من المنشئين")  
 elseif text and text:match("^رفع مدير (%d+)$") and Constructor(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 redis:sadd(bot_id.."Manager:Group"..msg.chat_id_, text:match("^رفع مدير (%d+)$") )
 Send_Options(msg,text:match("^رفع مدير (%d+)$") ,"reply","⌔︙تم ترقيته مدير المجموعه")  
 elseif text and text:match("^تنزيل مدير (%d+)$") and Constructor(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 redis:srem(bot_id.."Manager:Group"..msg.chat_id_, text:match("^تنزيل مدير (%d+)$") )
 Send_Options(msg,text:match("^تنزيل مدير (%d+)$") ,"reply","⌔︙تم تنزيله من المدراء")  
 elseif text and text:match("^رفع ادمن (%d+)$") and Owner(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 if not Constructor(msg) and redis:get(bot_id.."Status:Cheking:Seted"..msg.chat_id_) then 
@@ -4163,14 +4163,14 @@ redis:sadd(bot_id.."Admin:Group"..msg.chat_id_, text:match("^رفع ادمن (%d
 Send_Options(msg,text:match("^رفع ادمن (%d+)$"),"reply","⌔︙تم ترقيته ادمن للمجموعه")  
 elseif text and text:match("^تنزيل ادمن (%d+)$") and Owner(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 redis:srem(bot_id.."Admin:Group"..msg.chat_id_, text:match("^تنزيل ادمن (%d+)$"))
 Send_Options(msg,text:match("^تنزيل ادمن (%d+)$"),"reply","⌔︙تم تنزيله من ادمنيه المجموعه")  
 elseif text and text:match("^رفع مميز (%d+)$") and Admin(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 if not Constructor(msg) and redis:get(bot_id.."Status:Cheking:Seted"..msg.chat_id_) then 
@@ -4181,14 +4181,14 @@ redis:sadd(bot_id.."Vip:Group"..msg.chat_id_, text:match("^رفع مميز (%d+)
 Send_Options(msg,text:match("^رفع مميز (%d+)$"),"reply","⌔︙تم ترقيته مميز للمجموعه")  
 elseif text and text:match("^تنزيل مميز (%d+)$") and Admin(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 redis:srem(bot_id.."Vip:Group"..msg.chat_id_, text:match("^تنزيل مميز (%d+)$") )
 Send_Options(msg,text:match("^تنزيل مميز (%d+)$") ,"reply","⌔︙تم تنزيله من المميزين")  
 elseif text and text:match("^حظر (%d+)$") and Admin(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 if not Constructor(msg) and redis:get(bot_id.."Status:Lock:Ban:Group"..msg.chat_id_) then 
@@ -4214,7 +4214,7 @@ end,nil)
 end
 elseif text and text:match("^الغاء حظر (%d+)$") and Admin(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 if tonumber(text:match("^الغاء حظر (%d+)$") ) == tonumber(bot_id) then
@@ -4226,7 +4226,7 @@ tdcli_function ({ ID = "ChangeChatMemberStatus", chat_id_ = msg.chat_id_, user_i
 Send_Options(msg,text:match("^الغاء حظر (%d+)$") ,"reply","⌔︙تم الغاء حظره من هنا")  
 elseif text and text:match("^كتم (%d+)$") and Admin(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 if Rank_Checking(text:match("^كتم (%d+)$"), msg.chat_id_) == true then
@@ -4241,7 +4241,7 @@ Send_Options(msg,text:match("^كتم (%d+)$"),"reply","⌔︙تم كتمه من 
 end
 elseif text and text:match("^الغاء كتم (%d+)$") and Admin(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 redis:srem(bot_id.."Silence:User:Group"..msg.chat_id_,text:match("^الغاء كتم (%d+)$") )
@@ -4831,7 +4831,7 @@ redis:del(bot_id.."Status:Cheking:Seted"..msg.chat_id_)
 send(msg.chat_id_, msg.id_, '⌔︙تم تفعيل رفع - ( الادمن - المميز ) ')
 elseif text ==("تثبيت") and msg.reply_to_message_id_ ~= 0 and Admin(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 if redis:sismember(bot_id.."Status:Lock:pin",msg.chat_id_) and not Constructor(msg) then
@@ -4848,7 +4848,7 @@ send(msg.chat_id_,msg.id_,"⌔︙ليست لدي صلاحية التثبيت .")
 end;end,nil) 
 elseif text == "الغاء التثبيت" and Admin(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 if redis:sismember(bot_id.."Status:Lock:pin",msg.chat_id_) and not Constructor(msg) then
@@ -6373,7 +6373,7 @@ send(msg.chat_id_, msg.id_,[[*
 ⌔︙ارسل { م4 } ← اوامر المنشئين
 ⌔︙ارسل { م5 } ← اوامر مطورين البوت
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︙قناة البوت ←* @spirta
+⌔︙قناة البوت ←* @b666p
 ]]) 
 elseif text == 'م1' and Admin(msg) then
 send(msg.chat_id_, msg.id_,[[*
@@ -6409,7 +6409,7 @@ send(msg.chat_id_, msg.id_,[[*
 ⌔︙الجهات
 ⌔︙الاشعارات
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︙قناة البوت ←* @spirta
+⌔︙قناة البوت ←* @b666p
 ]]) 
 elseif text == 'م2' and Admin(msg) then
 send(msg.chat_id_, msg.id_,[[*
@@ -6448,7 +6448,7 @@ send(msg.chat_id_, msg.id_,[[*
 ⌔︙المطرودين ، البوتات ، الصوره
 ⌔︙الصلاحيات ، الرابط
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︙قناة البوت ←* @spirta
+⌔︙قناة البوت ←* @b666p
 ]]) 
 elseif text == 'م3' and Owner(msg) then
 send(msg.chat_id_, msg.id_,[[*
@@ -6479,7 +6479,7 @@ send(msg.chat_id_, msg.id_,[[*
 ⌔︙اضف ، حذف ← { رد }
 ⌔︙تنظيف ← { عدد }
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︙قناة البوت ←* @spirta
+⌔︙قناة البوت ←* @b666p
 ]]) 
 elseif text == 'م4' and Constructor(msg) then
 send(msg.chat_id_, msg.id_,[[*
@@ -6498,7 +6498,7 @@ send(msg.chat_id_, msg.id_,[[*
 ⌔︙الاوامر المضافه ، مسح الاوامر المضافه
 ⌔︙تنزيل جميع الرتب
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︙قناة البوت ←* @spirta
+⌔︙قناة البوت ←* @b666p
 ]]) 
 elseif text == 'م5' and DeveloperBot(msg)  then
 send(msg.chat_id_, msg.id_,[[*
@@ -6531,7 +6531,7 @@ send(msg.chat_id_, msg.id_,[[*
 ⌔︙اذاعه ، اذاعه بالتوجيه ، اذاعه بالتثبيت
 ⌔︙اذاعه خاص ، اذاعه خاص بالتوجيه 
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︙قناة البوت ←* @spirta
+⌔︙قناة البوت ←* @b666p
 ]]) 
 elseif text == 'الالعاب' then
 send(msg.chat_id_, msg.id_,[[*
@@ -6837,7 +6837,7 @@ if b.first_name_ == false then
 send(msg.chat_id_, msg.id_,"⌔︙ حساب المنشئ محذوف")
 return false  
 end
-local UserName = (b.username_ or "spirta")
+local UserName = (b.username_ or "b666p")
 send(msg.chat_id_, msg.id_,"⌔︙منشئ المجموعه ~ ["..b.first_name_.."](T.me/"..UserName..")")  
 end,nil)   
 end
@@ -6856,7 +6856,7 @@ if b.first_name_ == false then
 send(msg.chat_id_, msg.id_,"⌔︙حساب المنشئ محذوف")
 return false  
 end
-local UserName = (b.username_ or "spirta")
+local UserName = (b.username_ or "b666p")
 send(msg.chat_id_, msg.id_,"⌔︙تم ترقية منشئ المجموعه ← ["..b.first_name_.."](T.me/"..UserName..")")  
 redis:sadd(bot_id.."President:User"..msg.chat_id_,b.id_)
 end,nil)   
@@ -6881,7 +6881,7 @@ end
 ------------------------------------------------------------------------------------------------------------
 if text == 'تفعيل' and DeveloperBot(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 if TypeForChat ~= 'ForSuppur' then
@@ -6947,7 +6947,7 @@ end
 ------------------------------------------------------------------------------------------------------------
 if text == 'تعطيل' and DeveloperBot(msg) then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 tdcli_function ({ID = "GetUser",user_id_ = msg.sender_user_id_},function(extra,result,success)
@@ -6989,7 +6989,7 @@ end
 ------------------------------------------------------------------------------------------------------------
 if text == 'تفعيل' and not DeveloperBot(msg) and not redis:get(bot_id..'Free:Bot') then
 if AddChannel(msg.sender_user_id_) == false then
-send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @spirta')   
+send(msg.chat_id_,msg.id_,'\n⌔︙بليز اشترك بالقناة البوت واستخدم البوت. \n⌔︙قناة البوت 📁.\n- @b666p')   
 return false
 end
 if TypeForChat ~= 'ForSuppur' then
